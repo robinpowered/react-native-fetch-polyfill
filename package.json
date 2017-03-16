@@ -1,0 +1,24 @@
+{
+  "name": "react-native-fetch-polyfill",
+  "version": "1.1.1",
+  "description": "A polyfill for React Native's fetch client",
+  "main": "fetch-polyfill.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinpowered/react-native-fetch-polyfill.git"
+  },
+  "keywords": [
+    "ReactNative",
+    "fetch",
+    "timeout"
+  ],
+  "author": "Atticus White <contact@atticuswhite.com> (http://atticuswhite.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinpowered/react-native-fetch-polyfill/issues"
+  },
+  "homepage": "https://github.com/robinpowered/react-native-fetch-polyfill#readme"
+}
