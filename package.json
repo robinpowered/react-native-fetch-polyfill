@@ -15,8 +15,14 @@
     "fetch",
     "timeout"
   ],
-  "author": "Atticus White <contact@atticuswhite.com> (http://atticuswhite.com/)",
-  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.31"
+  },
+  "contributors": [{
+    "name": "Atticus White",
+    "email": "atticus@robinpowered.com"
+  }],
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/robinpowered/react-native-fetch-polyfill/issues"
   },
