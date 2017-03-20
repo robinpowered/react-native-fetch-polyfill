@@ -2,9 +2,9 @@
 
 // Polyfill from https://github.com/github/fetch/blob/v1.1.1/fetch.js#L8-L21
 var support = {
-  searchParams: 'URLSearchParams' in self,
-  iterable: 'Symbol' in self && 'iterator' in Symbol,
-  blob: 'FileReader' in self && 'Blob' in self && (function() {
+  searchParams: 'URLSearchParams' in this,
+  iterable: 'Symbol' in this && 'iterator' in Symbol,
+  blob: 'FileReader' in this && 'Blob' in this && (function() {
     try {
       new Blob()
       return true
@@ -12,8 +12,8 @@ var support = {
       return false
     }
   })(),
-  formData: 'FormData' in self,
-  arrayBuffer: 'ArrayBuffer' in self
+  formData: 'FormData' in this,
+  arrayBuffer: 'ArrayBuffer' in this
 }
 
 // Polyfill from https://github.com/github/fetch/blob/v1.1.1/fetch.js#L364-L375
