@@ -16,7 +16,7 @@
     "timeout"
   ],
   "peerDependencies": {
-    "react-native": ">=0.31"
+    "react-native": ">=0.27"
   },
   "contributors": [{
     "name": "Atticus White",
