@@ -40,7 +40,7 @@ export default function fetchPolyfill (input, init) {
     var xhr = new XMLHttpRequest()
 
     /* @patch: timeout */
-    if (init.timeout) {
+    if (init && init.timeout) {
       xhr.timeout = init.timeout;
     }
     /* @endpatch */
